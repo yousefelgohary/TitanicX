@@ -38,17 +38,6 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 
 ---
 
-## 🖼 Screenshots
-
-![Overview Tab](./screenshots/overview.png)
-*📊 Overview — Live KPI cards, dual bar charts, and interactive Plotly heatmap*
-
-![AI Insights Tab](./screenshots/insights.png)
-*🤖 AI Insights — Confidence-scored scouting cards per passenger segment*
-
-
----
-
 ## 🏗 Project Architecture
 
 ```
