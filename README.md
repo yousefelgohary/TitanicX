@@ -15,9 +15,7 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 
 <br/>
 
-### 🔗 [▶ Live Demo](https://your-app-name.streamlit.app) &nbsp;|&nbsp; [📓 Notebook](./TitanicX.ipynb)
-
-> ⚠️ Replace the Live Demo link above after deploying to Streamlit Community Cloud.
+### 🔗 [▶ Live Demo](https://titanicx.streamlit.app) &nbsp;|&nbsp; [📓 Notebook](./TitanicX.ipynb)
 
 <br/>
 
