@@ -36,6 +36,12 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 | **📥 CSV Download** | One-click download of the full cleaned & enriched dataset |
 | **🎨 Premium Dark UI** | Glassmorphism cards, gradient typography, Inter font, micro-animations via custom CSS |
 
+<br/>
+
+---
+
+</div>
+
 
 ## 🏗 Project Architecture
 
