@@ -36,12 +36,6 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 | **📥 CSV Download** | One-click download of the full cleaned & enriched dataset |
 | **🎨 Premium Dark UI** | Glassmorphism cards, gradient typography, Inter font, micro-animations via custom CSS |
 
-## 🖼 Screenshots
-
-| 📊 Overview — KPIs + Charts + Heatmap | 🤖 AI Insights — Confidence Cards |
-|:---:|:---:|
-| ![Overview Tab](./screenshots/overview.png) | ![AI Insights Tab](./screenshots/insights.png) |
-
 
 ## 🏗 Project Architecture
 
