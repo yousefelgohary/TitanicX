@@ -170,12 +170,7 @@ def render_overview_tab(df: pd.DataFrame) -> None:
         display = (pivot * 100).round(1)
         display.index = display.index.map({1: "1st Class", 2: "2nd Class", 3: "3rd Class"})
         display.columns = [c.title() for c in display.columns]
-        st.dataframe(
-            display.style
-                   .background_gradient(cmap="RdYlGn", vmin=0, vmax=100)
-                   .format("{:.1f}%"),
-            use_container_width=True,
-        )
+        st.dataframe(display, use_container_width=True)
 
 
 # ── Tab 2: Deep Analysis ───────────────────────────────────────────────────────
@@ -248,10 +243,7 @@ def render_deep_analysis_tab(df: pd.DataFrame) -> None:
         st.markdown("**Descriptive Statistics — Fare**")
         fare_stats = fare_describe_by_pclass(df)
         fare_stats.index = fare_stats.index.map({1: "1st Class", 2: "2nd Class", 3: "3rd Class"})
-        st.dataframe(
-            fare_stats.style.background_gradient(cmap="Blues").format("{:.2f}"),
-            use_container_width=True,
-        )
+        st.dataframe(fare_stats.round(2), use_container_width=True)
 
         box_fig = px.box(
             df, x="Pclass", y="Fare",

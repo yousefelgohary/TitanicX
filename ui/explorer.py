@@ -57,8 +57,7 @@ def render_explorer_tab(df: pd.DataFrame) -> None:
         numeric_cols = display_df.select_dtypes(include="number").columns.tolist()
         if numeric_cols:
             st.dataframe(
-                display_df[numeric_cols].describe().round(3)
-                    .style.background_gradient(cmap="Blues"),
+                display_df[numeric_cols].describe().round(3),
                 use_container_width=True,
             )
         else:
