@@ -40,42 +40,10 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 
 ## 🖼 Screenshots
 
-<table>
-<tr>
-<td width="50%">
+| 📊 Overview — KPIs + Charts + Heatmap | 🤖 AI Insights — Confidence Cards |
+|:---:|:---:|
+| ![Overview Tab](./screenshots/overview.png) | ![AI Insights Tab](./screenshots/insights.png) |
 
-**📊 Overview — KPIs + Heatmap**
-
-```
-┌────────────────────────────────┐
-│  891   342   38.4%   £79.38   │  ← Live KPI Row
-│  ────  ────  ──────  ───────  │
-│  Survival by Sex │ by Class   │  ← Dual Bar Charts
-│  ─────────────────────────── │
-│  🔥 Pclass × Sex Heatmap      │  ← Plotly Heatmap
-└────────────────────────────────┘
-```
-
-</td>
-<td width="50%">
-
-**🤖 AI Insights — Confidence Cards**
-
-```
-┌──────────────────────────────┐
-│ 👩 1st Class — Women  🟢HIGH │
-│ 96.8%                        │
-│ n = 94 · Confidence: 97%     │
-│ ████████████████████▓  97%   │
-│ 📎 Reasoning:                │
-│  • Large sample (n=94)       │
-│  • Aligns with "Women first" │
-└──────────────────────────────┘
-```
-
-</td>
-</tr>
-</table>
 
 ---
 
