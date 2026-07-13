@@ -213,7 +213,7 @@ No scikit-learn. No TensorFlow. Pure pandas EDA.
 
 ## 👨‍💻 Author
 
-**Yousef El-Gohary**  
+**Yousef Elgohary**  
 ML for Data Science — NTI × Creativa  
 Session 3: Pandas · Real-World Practice
 
