@@ -40,9 +40,14 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 
 ## 🖼 Screenshots
 
-| 📊 Overview — KPIs + Charts + Heatmap | 🤖 AI Insights — Confidence Cards |
-|:---:|:---:|
-| ![Overview Tab](./screenshots/overview.png) | ![AI Insights Tab](./screenshots/insights.png) |
+![Overview Tab](./screenshots/overview.png)
+*📊 Overview — Live KPI cards, dual bar charts, and interactive Plotly heatmap*
+
+![Deep Analysis Tab](./screenshots/deep_analysis.png)
+*🔬 Deep Analysis — AgeGroup breakdown, Title survival, Fare distribution box plot*
+
+![AI Insights Tab](./screenshots/insights.png)
+*🤖 AI Insights — Confidence-scored scouting cards per passenger segment*
 
 
 ---
