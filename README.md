@@ -15,7 +15,7 @@ Built with a clean modular architecture — pure Pandas for all data logic, Plot
 
 <br/>
 
-### 🔗 [▶ Live Demo](https://titanicx.streamlit.app) &nbsp;|&nbsp; [📓 Notebook](./TitanicX.ipynb)
+### 🔗 [▶ Live Demo](https://titanicx.streamlit.app) &nbsp;|&nbsp; [📓 Notebook](./notebooks/TitanicX.ipynb)
 
 <br/>
 
@@ -237,7 +237,7 @@ No scikit-learn. No TensorFlow. Pure pandas EDA.
 
 ## 🗂 Companion Notebook
 
-[`TitanicX.ipynb`](./TitanicX.ipynb) covers the same 10 tasks manually:
+[`TitanicX.ipynb`](./notebooks/TitanicX.ipynb) covers the same 10 tasks manually:
 
 1. Explore — `.shape`, `.info()`, `.describe()`, missing value analysis  
 2. Select — core column subset  
